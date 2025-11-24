@@ -2,17 +2,17 @@ import { useEffect, useState } from "react";
 
 const slides = [
   {
-    image: "/images/hero/industrial.jpg",
+    image: "/images/banner/img-banner-1.jpg",
     title: "Pavimentos de alta resistência em betão",
     subtitle: "Execução especializada para indústria, logística e grandes superfícies.",
   },
   {
-    image: "/images/hero/skate.jpg",
+    image: "/images/banner/img-banner-2.jpg",
     title: "Soluções à medida para cada projeto",
     subtitle: "De pistas de skate a parques de estacionamento, entregamos qualidade.",
   },
   {
-    image: "/images/hero/exterior.jpg",
+    image: "/images/banner/img-banner-3.jpg",
     title: "Acabamentos decorativos e funcionais",
     subtitle: "Betão desativado, impresso e polido para valorizar os espaços.",
   },
