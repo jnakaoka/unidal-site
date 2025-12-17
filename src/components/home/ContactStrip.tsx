@@ -13,8 +13,14 @@ export default function ContactStrip() {
             Fale connosco para solicitar um orçamento ou esclarecer dúvidas
             sobre o seu projeto de pavimentação.
           </p>
+          <a
+            href="/contactos"
+            className="hidden md:inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold text-white bg-unidalRed hover:opacity-90 transition"
+          >
+            Fale Conosco
+          </a>
 
-          <ul className="space-y-2 text-sm text-slate-700">
+          {/* <ul className="space-y-2 text-sm text-slate-700">
             <li>
               <strong>Morada:</strong> Rua da Construção 123, 4560-000 Cidade
             </li>
@@ -24,10 +30,10 @@ export default function ContactStrip() {
             <li>
               <strong>Email:</strong> geral@unidal.pt
             </li>
-          </ul>
+          </ul> */}
         </div>
 
-        <form className="bg-white rounded-xl shadow-sm p-4 md:p-6 space-y-3">
+        {/* <form className="bg-white rounded-xl shadow-sm p-4 md:p-6 space-y-3">
           <div>
             <label className="block text-sm font-medium mb-1">Nome</label>
             <input
@@ -57,7 +63,7 @@ export default function ContactStrip() {
           >
             Enviar Mensagem
           </button>
-        </form>
+        </form> */}
       </div>
     </section>
   );

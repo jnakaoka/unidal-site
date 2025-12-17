@@ -5,6 +5,9 @@ import SobreNos from "./pages/SobreNos";
 import Servicos from "./pages/Servicos";
 import Projetos from "./pages/Projetos";
 import Contactos from "./pages/Contactos";
+import Privacidade from "./pages/Privacidade";
+import Termos from "./pages/Termos";
+import Cookies from "./pages/Cookies";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +19,9 @@ export const router = createBrowserRouter([
       { path: "servicos", element: <Servicos /> },
       { path: "projetos", element: <Projetos /> },
       { path: "contactos", element: <Contactos /> },
+      { path: "privacidade", element: <Privacidade /> },
+      { path: "termos", element: <Termos /> },
+      { path: "cookies", element: <Cookies /> },
     ],
   },
 ]);

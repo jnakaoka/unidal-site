@@ -31,7 +31,7 @@ export default function HeroCarousel() {
   const slide = slides[active];
 
   return (
-    <section className="relative h-[320px] md:h-[480px] lg:h-[520px] overflow-hidden">
+    <section className="relative w-full h-[65vh] md:h-[75vh] bg-cover bg-center">
       <img
         src={slide.image}
         alt={slide.title}
@@ -48,13 +48,13 @@ export default function HeroCarousel() {
 
         <div className="mt-6 flex gap-3">
           <a
-            href="#servicos"
+            href="/servicos"
             className="px-5 py-2.5 rounded-full bg-unidalRed text-white text-sm font-semibold hover:opacity-90 transition"
           >
             Ver Serviços
           </a>
           <a
-            href="#contactos"
+            href="/contactos"
             className="px-5 py-2.5 rounded-full bg-white text-sm font-semibold text-unidalDark hover:bg-slate-100 transition"
           >
             Pedir Orçamento
