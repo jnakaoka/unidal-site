@@ -8,6 +8,8 @@ import Contactos from "./pages/Contactos";
 import Privacidade from "./pages/Privacidade";
 import Termos from "./pages/Termos";
 import Cookies from "./pages/Cookies";
+import PortalDenuncias from "./pages/PortalDenuncias";
+import EticaEmpresarialPrevencaoCorrupcao from "./pages/EticaEmpresarialPrevencaoCorrupcao";
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +24,8 @@ export const router = createBrowserRouter([
       { path: "privacidade", element: <Privacidade /> },
       { path: "termos", element: <Termos /> },
       { path: "cookies", element: <Cookies /> },
+      { path: "portal-denuncias", element: <PortalDenuncias /> },
+      { path: "etica-empresarial-prevencao-corrupcao", element: <EticaEmpresarialPrevencaoCorrupcao /> },
     ],
   },
 ]);

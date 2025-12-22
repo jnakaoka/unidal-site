@@ -31,14 +31,38 @@ export default function Footer() {
                   Política de Privacidade
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/termos" className="hover:text-white">
                   Termos de Serviço
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a href="/cookies" className="hover:text-white">
                   Política de Cookies
+                </a>
+              </li>
+              <li>
+                <a href="/etica-empresarial-prevencao-corrupcao" className="hover:text-white">
+                  Ética Empresarial e Prevenção da Corrupção
+                </a>
+              </li>
+              <li>
+                <a href="https://www.pepdata.com/whistleblower_channel/184e61bfec917363" 
+                   target="_blank" rel="noopener noreferrer" 
+                   className="hover:text-white"
+                >
+                  Portal de Denúncias
+                </a>
+              </li>
+              <li>
+                {/* Livro de Reclamações eletrónico */}
+                <a
+                  href="https://www.livroreclamacoes.pt/Pedido/Reclamacao"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white"
+                >
+                  Livro de Reclamações
                 </a>
               </li>
             </ul>

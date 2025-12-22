@@ -55,7 +55,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="https://wa.me/351XXXXXXXXX"
+            href="https://wa.me/351913626404"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-700 hover:text-unidalRed transition"

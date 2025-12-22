@@ -1,7 +1,7 @@
 export const projectFilters = [
   "Todos",
   "Industrial",
-  "Decorativo",
+  // "Decorativo",
   "Betão Polido",
   "Impresso",
 ];
@@ -9,15 +9,15 @@ export const projectFilters = [
 export const projects = [
   {
     id: 1,
-    title: "Parque de Estacionamento",
+    title: "Parque Industrial",
     type: "Industrial",
     image: "/images/projetos/img-industrial-1.jpg",
   },
   {
     id: 2,
-    title: "Pista de Skate",
-    type: "Decorativo",
-    image: "/images/projetos/img-skate-1.jpg",
+    title: "Betao Impresso",
+    type: "Impresso",
+    image: "/images/projetos/betao-impresso-2.jpeg",
   },
   {
     id: 3,
@@ -29,6 +29,12 @@ export const projects = [
     id: 4,
     title: "Piso Comercial",
     type: "Impresso",
-    image: "/images/projetos/img-industrial-2.jpg",
+    image: "/images/projetos/betao-impresso.jpeg",
+  },
+  {
+    id: 5,
+    title: "Parque Industrial",
+    type: "Industrial",
+    image: "/images/projetos/img-industrial-3.jpeg",
   },
 ];

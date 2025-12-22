@@ -7,12 +7,12 @@ export default function Servicos() {
     },
     {
       title: "Betão Desativado",
-      img: "/images/img-residencial-1.jpg",
+      img: "/images/betao-desativado.jpeg",
       desc: "Solução decorativa e antiderrapante para zonas exteriores, com agregados à vista e grande durabilidade, ideal para passeios, acessos e zonas de lazer.",
     },
     {
       title: "Betão Impresso",
-      img: "/images/img-residencial-1.jpg",
+      img: "/images/betao-impresso-2.jpeg",
       desc: "Acabamentos com textura e padrão, que reproduzem pedra, madeira ou lajetas, combinando estética e resistência em espaços residenciais e comerciais.",
     },
     {
@@ -25,11 +25,11 @@ export default function Servicos() {
       img: "/images/img-residencial-1.jpg",
       desc: "Pavimentos em betão para parques de estacionamento, acessos a condomínios, zonas de carga e descarga e áreas urbanas de grande circulação.",
     },
-    {
-      title: "Skateparks e Soluções Especiais",
-      img: "/images/img-skate-3.jpg",
-      desc: "Execução de pistas de skate e formas especiais em betão, com curvas suaves e acabamentos técnicos pensados para segurança e performance.",
-    },
+    // {
+    //   title: "Skateparks e Soluções Especiais",
+    //   img: "/images/img-skate-3.jpg",
+    //   desc: "Execução de pistas de skate e formas especiais em betão, com curvas suaves e acabamentos técnicos pensados para segurança e performance.",
+    // },
   ];
 
   return (
@@ -49,7 +49,7 @@ export default function Servicos() {
 
       <p className="text-slate-600 text-sm md:text-base leading-relaxed mb-10">
         Seja para um armazém industrial, um parque de estacionamento ou um
-        skatepark completo, a nossa equipa de mais de 60 profissionais está
+        pavimento de area externa, a nossa equipa de mais de 60 profissionais está
         preparada para garantir qualidade, durabilidade e segurança em cada
         projeto.
       </p>
