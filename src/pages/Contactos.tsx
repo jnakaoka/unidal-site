@@ -112,8 +112,8 @@ export default function Contactos() {
           <div>
             <strong className="font-semibold">Telefone</strong>
             <p className="text-slate-600">
-              <a href="tel:+351919732766" className="hover:text-unidalRed">
-                +351 919 732 766
+              <a href="tel:+351918017499" className="hover:text-unidalRed">
+                +351 918 017 499
               </a>
             </p>
           </div>
